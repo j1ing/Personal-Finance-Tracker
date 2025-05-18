@@ -1,0 +1,17 @@
+.generaltabletemplatetitle {
+  display: flex;
+  justify-content: center;
+}
+
+.paginationuppercontrol{
+  display: flex;
+  flex-direction: row;
+}
+
+.generaltabletemplatefiltersearch {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0px 40px;
+}

@@ -1,0 +1,47 @@
+.tablefilter {
+  display: flex;
+  flex-direction: column;
+}
+
+.tablefilterselect{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.currentTableFilter{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.currentTableFilterSingle{
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  background-color: lightgray;
+  margin-right: 0px;
+  padding: 5px 0px 5px 10px;
+}
+
+.currentTableFilterSingle-cross-btn {
+  background: none;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 0px 8px;
+}
+.currentTableFilterSingle-arrow-btn:focus {
+  outline: none;
+}
+
+.currentTableFilterBtn{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: auto;
+}

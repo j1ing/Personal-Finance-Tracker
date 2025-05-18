@@ -1,0 +1,20 @@
+.addIncome {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  align-items: center;
+}
+
+.addIncomeCard {
+  padding: 20px 75px;
+  box-shadow: 5px 5px 25px grey;
+  border-radius: 50px;
+}
+
+.addIncomeControl{
+  display: flex;
+  flex-direction: row;
+  padding: 40px 0px;
+  gap: 20px;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+.polarareachart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.polarareachartsubcategory{
+  margin: 10px;
+  padding: 50px;
+}
+
+.polarareachartsubcategoryheader {
+  text-align: center;
+}

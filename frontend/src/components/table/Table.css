@@ -1,0 +1,21 @@
+.tablecomponent table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  margin: 1% 2.5%;
+}
+
+.tablecomponent td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+.tablecomponent tbody tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.tablecomponent thead th{
+  background-color: #3a4449;
+  color: white;
+}

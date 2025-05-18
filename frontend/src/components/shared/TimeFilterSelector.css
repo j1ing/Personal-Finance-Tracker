@@ -1,0 +1,19 @@
+.timefilterselector {
+  display: flex;
+  flex-direction: row;
+}
+
+.timefilterselectordropdown {
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.timefilterselectordropdown p {
+  margin: 0px 10px;
+}
+
+.timefilterselectorfilterbtn {
+  margin: 10px 20px;
+  align-self: center;
+}

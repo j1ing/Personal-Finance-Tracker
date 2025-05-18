@@ -1,0 +1,8 @@
+.expensecategorydonutchart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* or a fixed height if needed */
+  width: 100%;  /* or a fixed width if needed */
+}

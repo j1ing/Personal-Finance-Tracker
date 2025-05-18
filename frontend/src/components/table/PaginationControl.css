@@ -1,0 +1,16 @@
+.paginationtablecontrol {
+  margin: 10px 0px;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination-arrow-btn {
+  background: none;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 0 8px;
+}
+.pagination-arrow-btn:focus {
+  outline: none;
+}

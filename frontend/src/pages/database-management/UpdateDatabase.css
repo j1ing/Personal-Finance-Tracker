@@ -1,0 +1,50 @@
+.editExpense {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  align-items: center;
+}
+
+.editExpenseCard {
+  padding: 20px 75px;
+  box-shadow: 5px 5px 25px grey;
+  border-radius: 50px;
+}
+
+.editExpenseTransactionID {
+  display: flex;
+  flex-direction: column;
+}
+
+.editExpenseTransactionDetail table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.editExpenseTransactionDetail td{
+  text-align: left;
+  padding: 8px;
+}
+
+.editExpenseTransactionDetailTableColumn {
+  font-weight: bolder;
+  background-color: #3a4449;
+  border: 2px solid white;
+  color: white;
+  width: 300px;
+}
+
+.editExpenseTransactionDetailTableValue{
+  border: 2px solid #3a4449;
+}
+
+.editExpenseInputSection p{
+  margin-top: 15px;
+}
+
+.editExpenseTransactionControl{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px;
+  justify-content: center;
+}
