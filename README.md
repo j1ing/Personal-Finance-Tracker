@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# 💰Personal Finance Tracker
+A full-stack web application designed to help users track their income and expenses, providing insights into their financial health.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ✨Features
+### ✅Income & Expense Tracking: 
 
-## Available Scripts
+- Log and categorize your financial transactions.
 
-In the project directory, you can run:
+- Consistent UI for:
+  - Viewing: Table view of all transactions.
 
-### `npm start`
+  - Adding: Form to log new transactions.
+  
+  - Editing: Update or delete existing transactions by transaction ID.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📊Dashboard Overview: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Visualize your financial data with charts and summaries by selected time period.
+  - Time filters:
+    - All time
+    - Year-to-date (YTD)
+    - By Year / Quarter / Month
+- Chart Types:
+  - Ring charts: Income (green) vs. Expense (red)
+  - Radar charts: Spending distribution by category
 
-### `npm test`
+### ⚙️Database Management & Settings: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Customize and manage categories, subcategories, and personnel.
+- Update “essential expense” categories to fine-tune net income calculations.
 
-### `npm run build`
+### 💾Data Persistence: 
+- Data is stored in destinated schemas in MySQL database.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🧪Demo:
+- Test the application using pre-loaded demo data without affecting real records.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️Tech Stack
+<pre><code>
+Layer/ Tech
+Frontend:  React.js
+Backend:  Node.js, Express.js
+Database:  MySQL
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔐 Note: No user authentication — this is built for personal/local use.
+</code></pre>
 
-### `npm run eject`
+## 🚀Getting Started
+Prerequisites
+- Node.js (v14 or later)
+- MySQL
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 1. Setup Environment
+Create a .env file inside the backend/ directory (Insert your password. Change host and user if applicable):
+<pre><code>
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=
+</code></pre>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 2. Install and Run Backend, Frontend
+Open 2 command prompts, rename one to 'frontend', another 'backend'
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+In the 'backend' cmd
+<pre><code>
+cd bakcend
+npm install
+npm start
+</code></pre>
+- On startup, the server connects to MySQL and:
+  - Checks if required schemas exist
+  - If missing, creates them (real + demo)
+  - Populates demo data automatically
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+In the 'frontend' cmd
+<pre><code>
+cd frontend
+npm install
+npm start
+</code></pre>
+- App will launch in the browser displaying demo data
+- Use the toggle button (top right) to switch between demo and real database
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📂 Project Structure
+<pre><code>
+/
+├── frontend/       # React frontend
+├── backend/        # Express backend
+└── README.md
+</code></pre>
