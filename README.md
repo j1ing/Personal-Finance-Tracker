@@ -88,3 +88,25 @@ npm start
 ├── backend/        # Express backend
 └── README.md
 </code></pre>
+
+
+## 🛠️ Future Improvement
+### High Priority
+- Add chart title
+- Filter input needs to be case insensitive
+- Filter operator for date
+- Show where to find transaction ID from edit page
+- Restrict transation ID finder to only positive values
+- Show transaction ID after adding
+### Medium Priority
+- Show amount and definition for gross and net income
+- Saving target adjustment UI
+- Incoporate keystroke Enter as submit
+- Date select, backspace not working
+### Low Priority
+- Improve filters on dashboard. Change data when selected not when clicked button.
+- Refresh page after update transaction
+- Essential categories is not saving an empty list after reset button
+### Completed
+- Standardize naming convention for personnel (2025-05-15)
+- Refactor update database logic: Only expense category can be added. (2025-05-15)
