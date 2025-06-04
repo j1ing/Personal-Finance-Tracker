@@ -92,12 +92,14 @@ npm start
 
 ## 🛠️ Future Improvement
 ### High Priority
+- Dockerize
 - Add chart title
 - Filter input needs to be case insensitive
 - Filter operator for date
 - Show where to find transaction ID from edit page
 - Restrict transation ID finder to only positive values
 - Show transaction ID after adding
+- Conflict states between toggle btn and data schema when refresh btn is clicked
 ### Medium Priority
 - Show amount and definition for gross and net income
 - Saving target adjustment UI
